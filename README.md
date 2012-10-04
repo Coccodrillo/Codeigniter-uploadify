@@ -11,7 +11,7 @@ What was changed or is worth paying attention:
 ------------------------------------------
 
 
-1. MY_Session in the libraries folder
+* MY_Session in the libraries folder
 
 Uploadify's flash component uses the default php session. As the Codeigniter doesn't this creates an authentication problem. The extended session takes care of preserving the old session values while setting the new ones.
 
@@ -23,11 +23,11 @@ This is where you set the session variable and (optionally) any other post data 
 
 BTW: I found this somewhere, but I can't seem to find it. I don't claim it as mine, kudos to whoever wrote it.
 
-2. setting the values for session in the config.php file
+* setting the values for session in the config.php file
 
 The session has to be encrypted and matching IP and user agent needs to be enabled.
 
-3. funky bug in Codeigniter 2.1 and above
+* funky bug in Codeigniter 2.1 and above
 
 You might notice
 
